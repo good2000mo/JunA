@@ -63,7 +63,7 @@ double gyroAngle;
 double pitch;
 
 /* PID variables */
-double Kp = 3.2;
+double Kp = 4.2;
 double Ki = 0.15;
 double Kd = 10;
 double targetAngle = 181.8;

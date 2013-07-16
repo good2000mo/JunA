@@ -25,6 +25,8 @@ enum Command {
   joystick,
 };
 
+// just to say hi
+
 /* These are used to read and write to the port registers - see http://www.arduino.cc/en/Reference/PortManipulation 
  I do this to save processing power - see this page for more information: http://www.billporter.info/ready-set-oscillate-the-fastest-way-to-change-arduino-pins/ */
 #define cbi(sfr, bit) (_SFR_BYTE(sfr) &= ~_BV(bit))
